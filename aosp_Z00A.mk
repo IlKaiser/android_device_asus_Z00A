@@ -2,7 +2,7 @@
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-# Inherit common DU stuff
+# Inherit common AOSP stuff
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
